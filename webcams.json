@@ -1,0 +1,11 @@
+{
+  "Sesimbra, Meco, Fonte da Telha": ["sesimbra", "bcmeco", "bcbambu", "fontedatelha"],
+  "Costa da Caparica": ["riviera", "bccaparicanovapraia", "bctarquinho", "costacaparicabernard", "costacaparicacds", "bccostasaojoao"],
+  "Oeiras": ["parcos", "santoamaro", "bctorre"],
+  "Linha-Cascais": ["carcavelos", "carcavelos2", "parede","saopedroestoria", "tamariz"],
+  "Guincho": ["crismina","praiaguinchosul", "praiaguinchonorte"],
+  "Sintra": ["praiagrande2","praiagrande", "praiadasmacas"],
+  "Ericeira": ["bcsaojuliao", "bcmafraribeira"],
+  "Santa Cruz": ["bcareiabranca", "santacruz", "vimeiro", "bcpraiaazul"],
+  "Peniche": ["bcconsolacao", "supertubos", "bcbalealgeral", "lagide", "bcfozdoarelho"]
+}
