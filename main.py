@@ -1,11 +1,11 @@
 import streamlit as st
+st.set_page_config(page_title="SurfBuddy Lisboa", page_icon="🏄‍♂️", layout="centered")
+
 import base64
 from services.ipma_api import get_webcams
 from services.video import show_beach_stream
 from ui.swell import render as swell_block
 from ui.wind import render as wind_block
-
-st.set_page_config(page_title="SurfBuddy Lisboa", page_icon="🏄‍♂️", layout="centered")
 
 # --- UTILITY ---
 def load_base64(path):
@@ -63,6 +63,11 @@ st.markdown(f"""
 
 # --- CONTENUTO ---
 st.markdown('<div class="block">', unsafe_allow_html=True)
+
+
+# --- AUTH ---
+from ui.auth import require_password
+user = require_password()
 
 st.markdown("""
 Hey **Meo Beachcam**, just a thought:
