@@ -9,5 +9,5 @@ def render():
         obs = latest_wind(est)
         short = label.split(" - ")[-1]
         if obs:
-            rows.append(f"**{short}** ({obs['time']}): **{obs['knots']} kt** from **{obs['dir']}**")
+            rows.append(f"- **{short}** ({obs['time']}): **{obs['knots']} kt** from **{obs['dir']}**")
     st.markdown("\n".join(rows))
