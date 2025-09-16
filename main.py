@@ -82,16 +82,19 @@ except the torture is... *buffered*.
 For our close friends only,
 we're streaming Lisbon's surf cams **ad-free** — just clean swell and stoke 🌊
 """)
-
-
-swell_block()
-wind_block()
-
-st.markdown("#### 🎥 Watch webcams in:")
+# ⬇️ PRIMA recupera le zone e fai scegliere l’area
 zones = get_webcams()
 zone = st.selectbox("Select a surf area", list(zones))
 
+# ⬇️ Passa la zona al blocco swell (così l’accordion usa lo slug corretto)
+swell_block(zone)
 
+# Poi vento
+wind_block()
+
+st.markdown("#### 🎥 Watch webcams in:")
+
+# Streams
 for beach in zones[zone]:
     with st.container():
         st.markdown(f"<h4 style='margin-bottom:0.5rem'>{beach.replace('-', ' ').title()}</h4>", unsafe_allow_html=True)
