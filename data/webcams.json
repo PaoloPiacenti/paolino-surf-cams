@@ -1,5 +1,6 @@
 {
-  "Overview": ["fontedatelha", "riviera","bccaparicanovapraia", "bccostasaojoao", "bctorre", "carcavelos2", "saopedroestoria", "praiaguinchosul", "praiagrande", "bcmagoito", "bcmafraribeira", "bcbalealgeral", "bcfozdoarelho"],
+  "Overview": ["fontedatelha","bccaparicanovapraia", "bccostasaojoao", "carcavelos2", "saopedroestoria", "praiaguinchosul", "praiagrande", "bcmagoito", "bcmafraribeira", "bcbalealgeral"],
+  "Kite": ["fontedatelha", "riviera", "praiaguinchosul", "bcfozdoarelho"],
   "Algarve": ["praiadarocha", "luz", "cordoama", "bcamado", "arrifana"],
   "Sines": ["saotorpes", "bcsaotorpes2"],
   "Sesimbra, Meco, Fonte da Telha": ["sesimbra", "bcmeco", "bcbambu", "fontedatelha"],
